@@ -1,0 +1,10 @@
+(sym_lib_table
+  (lib (name GEVCU-6-2c-eagle-import)(type Legacy)(uri ${KIPRJMOD}/GEVCU-6-2c-eagle-import.lib)(options "")(descr ""))
+  (lib (name ltc6820)(type Legacy)(uri /home/sschulz/KiCadLibs/LTC6255IS6/ltc6820.lib)(options "")(descr ""))
+  (lib (name ltc1763)(type Legacy)(uri /home/sschulz/KiCadLibs/LTC6255IS6/ltc1763.lib)(options "")(descr ""))
+  (lib (name b82804a354a110)(type Legacy)(uri /home/sschulz/KiCadLibs/Custom/b82804a354a110.lib)(options "")(descr ""))
+  (lib (name SparkFun-Fuses)(type Legacy)(uri ${KICADLIBS}/SparkFun-Fuses.lib)(options "")(descr ""))
+  (lib (name dk_Fuses)(type Legacy)(uri /home/sschulz/KiCadLibs/digikey-kicad-library/digikey-symbols/dk_Fuses.lib)(options "")(descr ""))
+  (lib (name RocketScream)(type Legacy)(uri /home/sschulz/KiCadLibs/RocketScreamKicadLibrary/RocketScreamKicadLibrary.lib)(options "")(descr ""))
+  (lib (name SparkfunICUcontroller)(type Legacy)(uri /home/sschulz/KiCadLibs/SparkFun-KiCad-Libraries/Libraries/SparkFun-IC-Microcontroller.lib)(options "")(descr ""))
+)

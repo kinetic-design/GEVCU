@@ -1,0 +1,2366 @@
+EESchema Schematic File Version 4
+LIBS:GEVCU-6-2c-cache
+EELAYER 29 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 10 16
+Title "ATSAM3X8EA Arduino Due compatible board"
+Date "2015-06-27"
+Rev "1"
+Comp "(c) Daniel Pelikan"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 4650 1425 0    60   ~ 0
++3.3V
+Text Label 5525 1875 0    60   ~ 0
+MASTER_RESET
+Text Label 13950 8425 0    60   ~ 0
+MASTER_RESET
+Text Label 13050 8425 0    60   ~ 0
+JTAG_RESET
+Text Label 14175 8325 0    60   ~ 0
+JTAG_TDI
+Text Label 14175 8225 0    60   ~ 0
+JTAG_TDO
+Text Label 14175 8125 0    60   ~ 0
+JTAG_TCK
+Text Label 14175 8025 0    60   ~ 0
+JTAG_TMS
+Text Label 12150 7275 0    60   ~ 0
++3.3V
+Text Label 13600 3300 0    60   ~ 0
+VDDANA
+Text Label 13600 2650 0    60   ~ 0
+VDDOUTMI
+Text Label 12750 4375 0    60   ~ 0
++3.3V
+Text Label 2100 9525 0    60   ~ 0
++3.3V
+Text Label 4600 4500 0    60   ~ 0
+D-
+Text Label 4600 4700 0    60   ~ 0
+D+
+Text HLabel 4600 4500 0    60   BiDi ~ 0
+D-
+Text HLabel 4600 4700 0    60   BiDi ~ 0
+D+
+NoConn ~ 5000 3700
+Text Label 13600 1950 0    60   ~ 0
+ADCREF
+Text Label 5000 5500 0    60   ~ 0
+PA0
+Text Label 5000 5600 0    60   ~ 0
+PA1
+Text Label 5000 5700 0    60   ~ 0
+PA2
+Text Label 5000 5800 0    60   ~ 0
+PA3
+Text Label 5000 5900 0    60   ~ 0
+PA4
+Text Label 5000 6000 0    60   ~ 0
+PA5
+Text Label 5000 6100 0    60   ~ 0
+PA6
+Text Label 5000 6200 0    60   ~ 0
+PA7
+Text Label 5000 6300 0    60   ~ 0
+PA8
+Text Label 5000 6400 0    60   ~ 0
+PA9
+Text Label 5000 6500 0    60   ~ 0
+PA10
+Text Label 5000 6600 0    60   ~ 0
+PA11
+Text Label 5000 6700 0    60   ~ 0
+PA12
+Text Label 5000 6800 0    60   ~ 0
+PA13
+Text Label 5000 6900 0    60   ~ 0
+PA14
+Text Label 5000 7000 0    60   ~ 0
+PA15
+Text Label 5000 7100 0    60   ~ 0
+PA16
+Text Label 5000 7200 0    60   ~ 0
+PA17
+Text Label 5000 7300 0    60   ~ 0
+PA18
+Text Label 5000 7400 0    60   ~ 0
+PA19
+Text Label 5000 7500 0    60   ~ 0
+PA20
+Text Label 5000 7600 0    60   ~ 0
+PA21
+Text Label 5000 7700 0    60   ~ 0
+PA22
+Text Label 5000 7800 0    60   ~ 0
+PA23
+Text Label 5000 7900 0    60   ~ 0
+PA24
+Text Label 5000 8000 0    60   ~ 0
+PA25
+Text Label 5000 8100 0    60   ~ 0
+PA26
+Text Label 5000 8200 0    60   ~ 0
+PA27
+Text Label 5000 8300 0    60   ~ 0
+PA28
+Text Label 5000 8400 0    60   ~ 0
+PA29
+Entry Wire Line
+	4900 5600 5000 5500
+Entry Wire Line
+	4900 5700 5000 5600
+Entry Wire Line
+	4900 5800 5000 5700
+Entry Wire Line
+	4900 5900 5000 5800
+Entry Wire Line
+	4900 6000 5000 5900
+Entry Wire Line
+	4900 6100 5000 6000
+Entry Wire Line
+	4900 6200 5000 6100
+Entry Wire Line
+	4900 6300 5000 6200
+Entry Wire Line
+	4900 6400 5000 6300
+Entry Wire Line
+	4900 6500 5000 6400
+Entry Wire Line
+	4900 6600 5000 6500
+Entry Wire Line
+	4900 6700 5000 6600
+Entry Wire Line
+	4900 6800 5000 6700
+Entry Wire Line
+	4900 6900 5000 6800
+Entry Wire Line
+	4900 7000 5000 6900
+Entry Wire Line
+	4900 7100 5000 7000
+Entry Wire Line
+	4900 7200 5000 7100
+Entry Wire Line
+	4900 7300 5000 7200
+Entry Wire Line
+	4900 7400 5000 7300
+Entry Wire Line
+	4900 7500 5000 7400
+Entry Wire Line
+	4900 7600 5000 7500
+Entry Wire Line
+	4900 7700 5000 7600
+Entry Wire Line
+	4900 7800 5000 7700
+Entry Wire Line
+	4900 7900 5000 7800
+Entry Wire Line
+	4900 8000 5000 7900
+Entry Wire Line
+	4900 8100 5000 8000
+Entry Wire Line
+	4900 8200 5000 8100
+Entry Wire Line
+	4900 8300 5000 8200
+Entry Wire Line
+	4900 8400 5000 8300
+Entry Wire Line
+	4900 8500 5000 8400
+Text Label 9400 9200 0    60   ~ 0
+JTAG_TCK
+Text Label 9400 9100 0    60   ~ 0
+JTAG_TDI
+Text Label 9400 9000 0    60   ~ 0
+JTAG_TDO
+Text Label 9400 8900 0    60   ~ 0
+JTAG_TMS
+Text HLabel 4250 8900 0    60   BiDi ~ 0
+PA[0..29]
+Text Label 5050 4600 0    60   ~ 0
+HSD-
+Text Label 5050 4800 0    60   ~ 0
+HSD+
+Wire Wire Line
+	4650 1475 4650 1275
+Connection ~ 4650 1875
+Wire Wire Line
+	4650 1775 4650 1875
+Wire Wire Line
+	12150 8025 12500 8025
+Wire Wire Line
+	12150 7125 12150 7425
+Connection ~ 13650 8425
+Wire Wire Line
+	13650 7825 13650 8425
+Connection ~ 13450 8325
+Wire Wire Line
+	13450 7825 13450 8325
+Connection ~ 13250 8125
+Wire Wire Line
+	13250 7825 13250 8125
+Connection ~ 13050 8025
+Wire Wire Line
+	13050 7825 13050 8025
+Wire Wire Line
+	13000 8425 13650 8425
+Wire Wire Line
+	13000 8325 13450 8325
+Wire Wire Line
+	13000 8125 13250 8125
+Wire Wire Line
+	13000 8025 13050 8025
+Connection ~ 12150 8425
+Wire Wire Line
+	12150 8425 12500 8425
+Connection ~ 12150 8225
+Wire Wire Line
+	12500 8225 12150 8225
+Wire Wire Line
+	12150 8125 12150 8225
+Wire Wire Line
+	12500 8125 12150 8125
+Connection ~ 12750 4475
+Wire Wire Line
+	12750 4175 12750 4475
+Wire Wire Line
+	12800 4975 12800 5075
+Wire Wire Line
+	13350 4675 13350 4475
+Wire Wire Line
+	13350 4475 12750 4475
+Wire Wire Line
+	12200 4475 12200 4675
+Connection ~ 12200 4675
+Connection ~ 13350 4675
+Connection ~ 12800 4975
+Wire Wire Line
+	12000 4675 12200 4675
+Wire Wire Line
+	2050 9525 2500 9525
+Wire Wire Line
+	5250 6300 5000 6300
+Wire Wire Line
+	5250 6400 5000 6400
+Wire Wire Line
+	4600 4500 4750 4500
+Wire Wire Line
+	4750 4500 4750 4600
+Connection ~ 4750 4500
+Wire Wire Line
+	4600 4700 4750 4700
+Wire Wire Line
+	4750 4700 4750 4800
+Connection ~ 4750 4700
+Wire Wire Line
+	2950 4050 2800 4050
+Wire Wire Line
+	2800 4050 2800 4150
+Connection ~ 2950 4050
+Wire Wire Line
+	4500 3650 4500 3900
+Wire Wire Line
+	4500 3900 5250 3900
+Wire Wire Line
+	4025 4000 4025 3950
+Wire Wire Line
+	3925 4500 3925 4300
+Wire Wire Line
+	5250 5500 5000 5500
+Wire Wire Line
+	5250 5600 5000 5600
+Wire Wire Line
+	5250 5700 5000 5700
+Wire Wire Line
+	5250 5800 5000 5800
+Wire Wire Line
+	5250 5900 5000 5900
+Wire Wire Line
+	5250 6000 5000 6000
+Wire Wire Line
+	5250 6100 5000 6100
+Wire Wire Line
+	5250 6200 5000 6200
+Wire Wire Line
+	5250 6500 5000 6500
+Wire Wire Line
+	5250 6600 5000 6600
+Wire Wire Line
+	5250 6700 5000 6700
+Wire Wire Line
+	5250 6800 5000 6800
+Wire Wire Line
+	5250 6900 5000 6900
+Wire Wire Line
+	5250 7000 5000 7000
+Wire Wire Line
+	5250 7100 5000 7100
+Wire Wire Line
+	5250 7200 5000 7200
+Wire Wire Line
+	5250 7300 5000 7300
+Wire Wire Line
+	5250 7400 5000 7400
+Wire Wire Line
+	5250 7500 5000 7500
+Wire Wire Line
+	5000 7600 5250 7600
+Wire Wire Line
+	5250 7700 5000 7700
+Wire Wire Line
+	5250 7800 5000 7800
+Wire Wire Line
+	5250 7900 5000 7900
+Wire Wire Line
+	5250 8000 5000 8000
+Wire Wire Line
+	5250 8100 5000 8100
+Wire Wire Line
+	5250 8200 5000 8200
+Wire Wire Line
+	5250 8300 5000 8300
+Wire Wire Line
+	5250 8400 5000 8400
+Wire Bus Line
+	4900 8900 4250 8900
+Wire Wire Line
+	8950 8800 9000 8950
+Wire Wire Line
+	9000 8950 9000 9100
+Wire Wire Line
+	9000 9100 8950 9200
+Wire Wire Line
+	8950 9200 9800 9200
+Wire Wire Line
+	9050 8800 9050 9100
+Wire Wire Line
+	9150 8800 9150 9000
+Wire Wire Line
+	9250 8800 9250 8900
+Wire Wire Line
+	9250 8900 9350 8900
+Wire Wire Line
+	4550 2575 4650 2575
+Wire Wire Line
+	8950 9500 8950 9700
+Wire Wire Line
+	8850 8800 8850 9000
+Wire Wire Line
+	8750 8800 8750 9000
+Wire Wire Line
+	8650 8800 8650 9000
+Wire Wire Line
+	8550 8800 8550 9000
+Wire Wire Line
+	8450 8800 8450 9000
+Wire Wire Line
+	8350 8800 8350 9000
+Wire Wire Line
+	8250 8800 8250 9000
+Wire Wire Line
+	8150 8800 8150 9000
+Wire Wire Line
+	8050 8800 8050 9000
+Wire Wire Line
+	7950 8800 7950 9000
+Wire Wire Line
+	7850 8800 7850 9000
+Wire Wire Line
+	7750 8800 7750 9000
+Wire Wire Line
+	7650 8800 7650 9000
+Wire Wire Line
+	7550 8800 7550 9000
+Wire Wire Line
+	7450 8800 7450 9000
+Wire Wire Line
+	7350 8800 7350 9000
+Wire Wire Line
+	7250 8800 7250 9000
+Wire Wire Line
+	7150 8800 7150 9000
+Wire Wire Line
+	7050 8800 7050 9000
+Wire Wire Line
+	6950 8800 6950 9000
+Wire Wire Line
+	6850 8800 6850 9000
+Wire Wire Line
+	6750 8800 6750 9000
+Wire Wire Line
+	6650 8800 6650 9000
+Wire Wire Line
+	6550 8800 6550 9000
+Wire Wire Line
+	6450 8800 6450 9000
+Wire Wire Line
+	6350 8800 6350 9000
+Wire Wire Line
+	6150 8800 6150 9000
+Text Label 6150 9000 1    60   ~ 0
+PB0
+Wire Wire Line
+	6250 8800 6250 9000
+Text Label 6250 9000 1    60   ~ 0
+PB1
+Text Label 6350 9000 1    60   ~ 0
+PB2
+Text Label 6450 9000 1    60   ~ 0
+PB3
+Text Label 6550 9000 1    60   ~ 0
+PB4
+Text Label 6650 9000 1    60   ~ 0
+PB5
+Text Label 6750 9000 1    60   ~ 0
+PB6
+Text Label 6850 9000 1    60   ~ 0
+PB7
+Text Label 6950 9000 1    60   ~ 0
+PB8
+Text Label 7050 9000 1    60   ~ 0
+PB9
+Text Label 7150 9000 1    60   ~ 0
+PB10
+Text Label 7250 9000 1    60   ~ 0
+PB11
+Text Label 7350 9000 1    60   ~ 0
+PB12
+Text Label 7450 9000 1    60   ~ 0
+PB13
+Text Label 7550 9000 1    60   ~ 0
+PB14
+Text Label 7650 9000 1    60   ~ 0
+PB15
+Text Label 7750 9000 1    60   ~ 0
+PB16
+Text Label 7850 9000 1    60   ~ 0
+PB17
+Text Label 7950 9000 1    60   ~ 0
+PB18
+Text Label 8050 9000 1    60   ~ 0
+PB19
+Text Label 8150 9000 1    60   ~ 0
+PB20
+Text Label 8250 9000 1    60   ~ 0
+PB21
+Text Label 8350 9000 1    60   ~ 0
+PB22
+Text Label 8450 9000 1    60   ~ 0
+PB23
+Text Label 8550 9000 1    60   ~ 0
+PB24
+Text Label 8650 9000 1    60   ~ 0
+PB25
+Text Label 8750 9000 1    60   ~ 0
+PB26
+Text Label 8850 9000 1    60   ~ 0
+PB27
+Text Label 8950 9700 1    60   ~ 0
+PB28
+Text Label 9100 9700 1    60   ~ 0
+PB29
+Text Label 9250 9700 1    60   ~ 0
+PB30
+Text Label 9350 9700 1    60   ~ 0
+PB31
+Entry Wire Line
+	6150 9000 6250 9100
+Entry Wire Line
+	6250 9000 6350 9100
+Entry Wire Line
+	6350 9000 6450 9100
+Entry Wire Line
+	6450 9000 6550 9100
+Entry Wire Line
+	6550 9000 6650 9100
+Entry Wire Line
+	6650 9000 6750 9100
+Entry Wire Line
+	6750 9000 6850 9100
+Entry Wire Line
+	6850 9000 6950 9100
+Entry Wire Line
+	6950 9000 7050 9100
+Entry Wire Line
+	7050 9000 7150 9100
+Entry Wire Line
+	7150 9000 7250 9100
+Entry Wire Line
+	7250 9000 7350 9100
+Entry Wire Line
+	7350 9000 7450 9100
+Entry Wire Line
+	7450 9000 7550 9100
+Entry Wire Line
+	7550 9000 7650 9100
+Entry Wire Line
+	7650 9000 7750 9100
+Entry Wire Line
+	7750 9000 7850 9100
+Entry Wire Line
+	7850 9000 7950 9100
+Entry Wire Line
+	7950 9000 8050 9100
+Entry Wire Line
+	8050 9000 8150 9100
+Entry Wire Line
+	8150 9000 8250 9100
+Entry Wire Line
+	8250 9000 8350 9100
+Entry Wire Line
+	8350 9000 8450 9100
+Entry Wire Line
+	8450 9000 8550 9100
+Entry Wire Line
+	8550 9000 8650 9100
+Entry Wire Line
+	8650 9000 8750 9100
+Entry Wire Line
+	8750 9000 8850 9100
+Entry Wire Line
+	8850 9000 8950 9100
+Entry Wire Line
+	8950 9700 9050 9800
+Entry Wire Line
+	9100 9700 9200 9800
+Entry Wire Line
+	9250 9700 9350 9800
+Entry Wire Line
+	9350 9700 9450 9800
+Wire Bus Line
+	8850 9800 8850 9150
+Wire Bus Line
+	8850 9150 8950 9150
+Wire Bus Line
+	8950 9150 8950 9100
+Text HLabel 5600 9100 0    60   BiDi ~ 0
+PB[0..31]
+Wire Wire Line
+	9950 8400 10250 8400
+Wire Wire Line
+	9950 8300 10250 8300
+Wire Wire Line
+	9950 8200 10250 8200
+Wire Wire Line
+	9950 8100 10250 8100
+Wire Wire Line
+	9950 8000 10250 8000
+Wire Wire Line
+	9950 7900 10250 7900
+Wire Wire Line
+	9950 7800 10250 7800
+Wire Wire Line
+	9950 7700 10250 7700
+Wire Wire Line
+	9950 7600 10250 7600
+Wire Wire Line
+	9950 7500 10250 7500
+Wire Wire Line
+	9950 7400 10250 7400
+Wire Wire Line
+	9950 7300 10250 7300
+Wire Wire Line
+	9950 7200 10250 7200
+Wire Wire Line
+	9950 7100 10250 7100
+Wire Wire Line
+	9950 7000 10250 7000
+Wire Wire Line
+	9950 6900 10250 6900
+Wire Wire Line
+	9950 6800 10250 6800
+Wire Wire Line
+	9950 6700 10250 6700
+Wire Wire Line
+	9950 6600 10250 6600
+Wire Wire Line
+	9950 6500 10250 6500
+Wire Wire Line
+	9950 6400 10250 6400
+Wire Wire Line
+	9950 6300 10250 6300
+Wire Wire Line
+	9950 6200 10250 6200
+Wire Wire Line
+	9950 6100 10250 6100
+Wire Wire Line
+	9950 6000 10250 6000
+Wire Wire Line
+	9950 5900 10250 5900
+Wire Wire Line
+	9950 5800 10250 5800
+Wire Wire Line
+	9950 5700 10250 5700
+Wire Wire Line
+	9950 5500 10250 5500
+Wire Wire Line
+	9950 5400 10250 5400
+Wire Wire Line
+	9950 5600 10250 5600
+Wire Wire Line
+	9950 5200 10250 5200
+Wire Wire Line
+	9950 5100 10250 5100
+Wire Wire Line
+	9950 5000 10250 5000
+Wire Wire Line
+	9950 4900 10250 4900
+Wire Wire Line
+	9950 4800 10250 4800
+Wire Wire Line
+	9950 4700 10250 4700
+Wire Wire Line
+	9950 4600 10250 4600
+Wire Wire Line
+	9950 4500 10250 4500
+Wire Wire Line
+	9950 4400 10250 4400
+Wire Wire Line
+	9950 4300 10250 4300
+Wire Wire Line
+	9950 4200 10250 4200
+Text Label 10250 8400 2    60   ~ 0
+PC0
+Text Label 10250 8300 2    60   ~ 0
+PC1
+Text Label 10250 8200 2    60   ~ 0
+PC2
+Text Label 10250 8100 2    60   ~ 0
+PC3
+Text Label 10250 8000 2    60   ~ 0
+PC4
+Text Label 10250 7900 2    60   ~ 0
+PC5
+Text Label 10250 7800 2    60   ~ 0
+PC6
+Text Label 10250 7700 2    60   ~ 0
+PC7
+Text Label 10250 7600 2    60   ~ 0
+PC8
+Text Label 10250 7500 2    60   ~ 0
+PC9
+Text Label 10250 7400 2    60   ~ 0
+PC10
+Text Label 10250 7300 2    60   ~ 0
+PC11
+Text Label 10250 7200 2    60   ~ 0
+PC12
+Text Label 10250 7100 2    60   ~ 0
+PC13
+Text Label 10250 7000 2    60   ~ 0
+PC14
+Text Label 10250 6900 2    60   ~ 0
+PC15
+Text Label 10250 6800 2    60   ~ 0
+PC16
+Text Label 10250 6700 2    60   ~ 0
+PC17
+Text Label 10250 6600 2    60   ~ 0
+PC18
+Text Label 10250 6500 2    60   ~ 0
+PC19
+Text Label 10250 6400 2    60   ~ 0
+PC20
+Text Label 10250 6300 2    60   ~ 0
+PC21
+Text Label 10250 6200 2    60   ~ 0
+PC22
+Text Label 10250 6100 2    60   ~ 0
+PC23
+Text Label 10250 6000 2    60   ~ 0
+PC24
+Text Label 10250 5900 2    60   ~ 0
+PC25
+Text Label 10250 5800 2    60   ~ 0
+PC26
+Text Label 10250 5700 2    60   ~ 0
+PC27
+Text Label 10250 5600 2    60   ~ 0
+PC28
+Text Label 10250 5500 2    60   ~ 0
+PC29
+Text Label 10250 5400 2    60   ~ 0
+PC30
+Text Label 10250 5200 2    60   ~ 0
+PD0
+Text Label 10250 5100 2    60   ~ 0
+PD1
+Text Label 10250 5000 2    60   ~ 0
+PD2
+Text Label 10250 4900 2    60   ~ 0
+PD3
+Text Label 10250 4800 2    60   ~ 0
+PD4
+Text Label 10250 4700 2    60   ~ 0
+PD5
+Text Label 10250 4600 2    60   ~ 0
+PD6
+Text Label 10250 4500 2    60   ~ 0
+PD7
+Text Label 10250 4400 2    60   ~ 0
+PD8
+Text Label 10250 4300 2    60   ~ 0
+PD9
+Text Label 10250 4200 2    60   ~ 0
+PD10
+Entry Wire Line
+	10250 8400 10350 8500
+Entry Wire Line
+	10250 8300 10350 8400
+Entry Wire Line
+	10250 8200 10350 8300
+Entry Wire Line
+	10250 8100 10350 8200
+Entry Wire Line
+	10250 8000 10350 8100
+Entry Wire Line
+	10250 7900 10350 8000
+Entry Wire Line
+	10250 7800 10350 7900
+Entry Wire Line
+	10250 7700 10350 7800
+Entry Wire Line
+	10250 7600 10350 7700
+Entry Wire Line
+	10250 7500 10350 7600
+Entry Wire Line
+	10250 7400 10350 7500
+Entry Wire Line
+	10250 7300 10350 7400
+Entry Wire Line
+	10250 7200 10350 7300
+Entry Wire Line
+	10250 7100 10350 7200
+Entry Wire Line
+	10250 7000 10350 7100
+Entry Wire Line
+	10250 6900 10350 7000
+Entry Wire Line
+	10250 6800 10350 6900
+Entry Wire Line
+	10250 6700 10350 6800
+Entry Wire Line
+	10250 6600 10350 6700
+Entry Wire Line
+	10250 6500 10350 6600
+Entry Wire Line
+	10250 6400 10350 6500
+Entry Wire Line
+	10250 6300 10350 6400
+Entry Wire Line
+	10250 6200 10350 6300
+Entry Wire Line
+	10250 6100 10350 6200
+Entry Wire Line
+	10250 6000 10350 6100
+Entry Wire Line
+	10250 5900 10350 6000
+Entry Wire Line
+	10250 5800 10350 5900
+Entry Wire Line
+	10250 5700 10350 5800
+Entry Wire Line
+	10250 5600 10350 5700
+Entry Wire Line
+	10250 5500 10350 5600
+Entry Wire Line
+	10250 5400 10350 5500
+Entry Wire Line
+	10250 5200 10350 5300
+Entry Wire Line
+	10250 5100 10350 5200
+Entry Wire Line
+	10250 5000 10350 5100
+Entry Wire Line
+	10250 4900 10350 5000
+Entry Wire Line
+	10250 4800 10350 4900
+Entry Wire Line
+	10250 4700 10350 4800
+Entry Wire Line
+	10250 4600 10350 4700
+Entry Wire Line
+	10250 4500 10350 4600
+Entry Wire Line
+	10250 4400 10350 4500
+Entry Wire Line
+	10250 4300 10350 4400
+Entry Wire Line
+	10250 4200 10350 4300
+Wire Bus Line
+	10350 8600 10750 8600
+Text HLabel 10750 8600 2    60   BiDi ~ 0
+PC[0..30]
+Wire Bus Line
+	10350 5300 10650 5300
+Text HLabel 10650 5300 2    60   BiDi ~ 0
+PD[0..10]
+Text Label 2150 10000 0    60   ~ 0
+PB12
+Text Label 2150 10200 0    60   ~ 0
+PB13
+Wire Wire Line
+	2700 9700 2500 9700
+Text Notes 2200 10300 0    60   ~ 0
+I2C Voltage Converter
+NoConn ~ 2700 10050
+NoConn ~ 2500 9850
+Text HLabel 3875 1875 0    60   Output ~ 0
+MASTER_RESET
+Text Notes 1000 1200 0    60   ~ 0
+39 ohm is not 1%\n6.8k is not 1%
+Wire Wire Line
+	4650 1875 4650 1975
+Wire Wire Line
+	12150 8425 12150 8675
+Wire Wire Line
+	12150 8225 12150 8425
+Wire Wire Line
+	12750 4475 12200 4475
+Wire Wire Line
+	12200 4675 12350 4675
+Wire Wire Line
+	4750 4500 5250 4500
+Wire Wire Line
+	4750 4700 5250 4700
+Wire Wire Line
+	13100 3600 13300 3600
+Wire Wire Line
+	13100 2950 13300 2950
+Wire Wire Line
+	12000 4975 12350 4975
+Wire Wire Line
+	2950 3650 2950 3950
+Wire Wire Line
+	3525 3950 4025 3950
+Wire Wire Line
+	3525 4500 3925 4500
+Wire Wire Line
+	13100 2250 13300 2250
+Wire Wire Line
+	9050 9100 9100 9100
+Wire Wire Line
+	9150 9000 9250 9000
+Wire Wire Line
+	2150 10000 2500 10000
+Wire Wire Line
+	2150 10200 2700 10200
+Wire Wire Line
+	13350 4675 13625 4675
+Wire Wire Line
+	12150 7425 13050 7425
+$Comp
+L GEVCU-6-2c-eagle-import:ATSAM3X_AAU U?
+U 1 1 5CCB0401
+P 5450 8600
+F 0 "U?" H 7600 14102 59  0000 C CNN
+F 1 "ATSAM3X_AAU" H 7550 12050 59  0000 C CNN
+F 2 "" H 5450 8600 60  0001 C CNN
+F 3 "" H 5450 8600 60  0001 C CNN
+	1    5450 8600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9900 2800 10250 2800
+Wire Wire Line
+	8850 2800 8850 3300
+Text HLabel 5450 3100 0    60   Input ~ 0
+VBUS
+Wire Wire Line
+	5850 3100 5450 3100
+Wire Wire Line
+	5850 3300 5850 3100
+Wire Wire Line
+	6350 3300 6350 3100
+Wire Wire Line
+	7750 3300 7750 2800
+Wire Wire Line
+	7550 3150 7850 3150
+Connection ~ 7550 3150
+Wire Wire Line
+	7550 3300 7550 3150
+Wire Wire Line
+	7450 3150 7550 3150
+Connection ~ 7450 3150
+Wire Wire Line
+	7450 3300 7450 3150
+Wire Wire Line
+	7350 3150 7450 3150
+Wire Wire Line
+	7250 3150 7350 3150
+Connection ~ 7350 3150
+Wire Wire Line
+	7350 3300 7350 3150
+Wire Wire Line
+	7250 3300 7250 3150
+Wire Wire Line
+	7150 3150 7150 3300
+Connection ~ 7250 3150
+Wire Wire Line
+	7150 3150 7250 3150
+Wire Wire Line
+	7850 3150 7850 3300
+Wire Wire Line
+	7950 3300 7950 2800
+Wire Wire Line
+	10600 3050 10600 2500
+Wire Wire Line
+	8250 3050 10600 3050
+Wire Wire Line
+	8250 3300 8250 3050
+Wire Wire Line
+	8450 3300 8450 2800
+Wire Wire Line
+	8450 2800 8550 2800
+Connection ~ 8550 2800
+Wire Wire Line
+	8550 3300 8550 2800
+Wire Wire Line
+	8550 2800 8650 2800
+Connection ~ 8650 2800
+Wire Wire Line
+	8650 3300 8650 2800
+Wire Wire Line
+	8650 2800 8750 2800
+Wire Wire Line
+	8750 2800 8850 2800
+Connection ~ 8750 2800
+Wire Wire Line
+	8750 3300 8750 2800
+Connection ~ 8850 2800
+Wire Wire Line
+	8850 2500 8850 2800
+Connection ~ 8450 2800
+Wire Wire Line
+	8150 2800 8450 2800
+Wire Wire Line
+	8150 3300 8150 2800
+Wire Wire Line
+	8850 2500 9050 2500
+Text Label 7150 3150 0    60   ~ 0
+3.3V
+Text Label 7750 3300 1    60   ~ 0
+VDDANA
+Text Label 6350 2700 1    60   ~ 0
++3.3V
+Text Label 6950 3300 1    60   ~ 0
+AVREF
+Text Label 7950 3300 1    60   ~ 0
+VDDOUTMI
+Text Label 8150 3300 1    60   ~ 0
+VDDOUT
+$Comp
+L SparkFun-Resistors:100KOHM-HORIZ_KIT-1_4W-5% R6
+U 1 1 5CE625EC
+P 6350 2900
+F 0 "R6" H 6450 2950 45  0000 L CNN
+F 1 "100K" H 6300 2850 45  0000 L CNN
+F 2 "AXIAL-0.3-KIT" H 6350 3050 20  0001 C CNN
+F 3 "" H 6350 2900 60  0001 C CNN
+F 4 "RES-10686" V 6434 2968 60  0001 L CNN "Field4"
+	1    6350 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14250 9900 14350 9900
+Wire Wire Line
+	14350 9900 14350 9800
+Text Label 14250 9900 0    10   ~ 0
++3V3
+Wire Wire Line
+	2950 4900 2950 5000
+Wire Wire Line
+	2950 5000 2650 5000
+Wire Wire Line
+	2950 5100 2950 5000
+Connection ~ 2950 5000
+Text Label 10050 2500 0    70   ~ 0
+VDDPLL
+Wire Wire Line
+	2950 5500 2950 5400
+Wire Wire Line
+	2950 5400 2650 5400
+Connection ~ 2950 5400
+Text Label 2950 5500 0    10   ~ 0
+IGND
+Text Label 8850 2625 1    70   ~ 0
+VDDOUT
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5CF057C2
+P 4550 2675
+AR Path="/5CF057C2" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5CF057C2" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5CF057C2" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 4550 2675 60  0001 C CNN
+F 1 "IGND" H 4475 2550 59  0000 L BNN
+F 2 "" H 4550 2675 60  0001 C CNN
+F 3 "" H 4550 2675 60  0001 C CNN
+	1    4550 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:R-US_R0805 R?
+U 1 1 5CF057F2
+P 2650 5200
+AR Path="/5CF057F2" Ref="R?"  Part="1" 
+AR Path="/5C2F3FAA/5CF057F2" Ref="R?"  Part="1" 
+AR Path="/5EC02B29/5CF057F2" Ref="R?"  Part="1" 
+F 0 "R?" V 2716 5300 59  0000 L BNN
+F 1 "6k8 1%" V 2630 5275 59  0000 L BNN
+F 2 "GEVCU-6-2c:R0805" H 2650 5200 60  0001 C CNN
+F 3 "" H 2650 5200 60  0001 C CNN
+	1    2650 5200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5CF057F8
+P 2950 5200
+AR Path="/5CF057F8" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5CF057F8" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5CF057F8" Ref="C?"  Part="1" 
+F 0 "C?" H 2990 5225 59  0000 L BNN
+F 1 "22p" H 2990 5035 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 2950 5200 60  0001 C CNN
+F 3 "" H 2950 5200 60  0001 C CNN
+	1    2950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5CF05810
+P 2950 5600
+AR Path="/5CF05810" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5CF05810" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5CF05810" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 2950 5600 60  0001 C CNN
+F 1 "IGND" H 2850 5500 59  0000 L BNN
+F 2 "" H 2950 5600 60  0001 C CNN
+F 3 "" H 2950 5600 60  0001 C CNN
+	1    2950 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:+3V3 #+3V?
+U 1 1 5CF05828
+P 14350 9700
+AR Path="/5CF05828" Ref="#+3V?"  Part="1" 
+AR Path="/5C2F3FAA/5CF05828" Ref="#+3V?"  Part="1" 
+AR Path="/5EC02B29/5CF05828" Ref="#+3V?"  Part="1" 
+F 0 "#+3V?" H 14350 9700 60  0001 C CNN
+F 1 "+3V3" V 14250 9700 59  0000 L BNN
+F 2 "" H 14350 9700 60  0001 C CNN
+F 3 "" H 14350 9700 60  0001 C CNN
+	1    14350 9700
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5CF05858
+P 9900 2600
+AR Path="/5CF05858" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5CF05858" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5CF05858" Ref="C?"  Part="1" 
+F 0 "C?" H 9940 2625 59  0000 L BNN
+F 1 "0.1u" H 9940 2435 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 9900 2600 60  0001 C CNN
+F 3 "" H 9900 2600 60  0001 C CNN
+	1    9900 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5CF0585E
+P 10250 2600
+AR Path="/5CF0585E" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5CF0585E" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5CF0585E" Ref="C?"  Part="1" 
+F 0 "C?" H 10290 2625 59  0000 L BNN
+F 1 "10u" H 10290 2435 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 10250 2600 60  0001 C CNN
+F 3 "" H 10250 2600 60  0001 C CNN
+	1    10250 2600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5CF05864
+P 9900 2900
+AR Path="/5CF05864" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5CF05864" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5CF05864" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 9900 2900 60  0001 C CNN
+F 1 "IGND" H 9800 2800 59  0000 L BNN
+F 2 "" H 9900 2900 60  0001 C CNN
+F 3 "" H 9900 2900 60  0001 C CNN
+	1    9900 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:PUCHBUTTON ERASE?
+U 1 1 5CF0586A
+P 13950 9900
+AR Path="/5CF0586A" Ref="ERASE?"  Part="1" 
+AR Path="/5C2F3FAA/5CF0586A" Ref="ERASE?"  Part="1" 
+AR Path="/5EC02B29/5CF0586A" Ref="ERASE?"  Part="1" 
+F 0 "ERASE?" H 13950 9900 60  0001 C CNN
+F 1 "PUCHBUTTON" H 13950 9900 60  0001 C CNN
+F 2 "GEVCU-6-2c:PUCHBUTTON" H 13950 9900 60  0001 C CNN
+F 3 "chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://www.mouser.com/datasheet/2/15/SKQY-1370659.pdf" H 13950 9900 60  0001 C CNN
+	1    13950 9900
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:PUCHBUTTON RESET?
+U 1 1 5CF05870
+P 4650 2275
+AR Path="/5CF05870" Ref="RESET?"  Part="1" 
+AR Path="/5C2F3FAA/5CF05870" Ref="RESET?"  Part="1" 
+AR Path="/5EC02B29/5CF05870" Ref="RESET?"  Part="1" 
+F 0 "RESET?" H 4650 2275 60  0001 C CNN
+F 1 "PUCHBUTTON" H 4650 2275 60  0001 C CNN
+F 2 "GEVCU-6-2c:PUCHBUTTON" H 4650 2275 60  0001 C CNN
+F 3 "chrome-extension://oemmndcbldboiebfnladdacbdfmadadm/https://www.mouser.com/datasheet/2/15/SKQY-1370659.pdf" H 4650 2275 60  0001 C CNN
+	1    4650 2275
+	0    1    1    0   
+$EndComp
+Text Label 13250 9900 0    60   ~ 0
+ERASE
+Wire Wire Line
+	2950 4900 5250 4900
+$Comp
+L GEVCU-6-2c-eagle-import:+3V3 #+3V?
+U 1 1 5CF05988
+P 7900 1350
+AR Path="/5CF05988" Ref="#+3V?"  Part="1" 
+AR Path="/5C2F3FAA/5CF05988" Ref="#+3V?"  Part="1" 
+AR Path="/5EC02B29/5CF05988" Ref="#+3V?"  Part="1" 
+F 0 "#+3V?" H 7900 1350 60  0001 C CNN
+F 1 "+3V3" V 7800 1150 59  0000 L BNN
+F 2 "" H 7900 1350 60  0001 C CNN
+F 3 "" H 7900 1350 60  0001 C CNN
+	1    7900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5CF0598E
+P 7300 2550
+AR Path="/5CF0598E" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5CF0598E" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5CF0598E" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 7300 2550 60  0001 C CNN
+F 1 "IGND" H 7200 2450 59  0000 L BNN
+F 2 "" H 7300 2550 60  0001 C CNN
+F 3 "" H 7300 2550 60  0001 C CNN
+	1    7300 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5CF05994
+P 7300 2150
+AR Path="/5CF05994" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5CF05994" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5CF05994" Ref="C?"  Part="1" 
+F 0 "C?" H 7340 2175 59  0000 L BNN
+F 1 "0.1u" H 7340 1985 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 7300 2150 60  0001 C CNN
+F 3 "" H 7300 2150 60  0001 C CNN
+	1    7300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5CF0599A
+P 7900 2550
+AR Path="/5CF0599A" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5CF0599A" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5CF0599A" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 7900 2550 60  0001 C CNN
+F 1 "IGND" H 7800 2450 59  0000 L BNN
+F 2 "" H 7900 2550 60  0001 C CNN
+F 3 "" H 7900 2550 60  0001 C CNN
+	1    7900 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5CF059A0
+P 7900 2150
+AR Path="/5CF059A0" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5CF059A0" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5CF059A0" Ref="C?"  Part="1" 
+F 0 "C?" H 7940 2175 59  0000 L BNN
+F 1 "0.1u" H 7940 1985 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 7900 2150 60  0001 C CNN
+F 3 "" H 7900 2150 60  0001 C CNN
+	1    7900 2150
+	1    0    0    -1  
+$EndComp
+Text Label 7900 2350 0    10   ~ 0
+IGND
+Wire Wire Line
+	7900 2350 7900 2450
+Text Label 7300 2350 0    10   ~ 0
+IGND
+Wire Wire Line
+	7300 2350 7300 2450
+Wire Wire Line
+	7300 2050 7300 1950
+Wire Wire Line
+	6950 1950 7300 1950
+Wire Wire Line
+	6950 1950 6950 3300
+$Comp
+L Device:R_Small R?
+U 1 1 5D2EA7DD
+P 4950 4600
+F 0 "R?" V 4850 4600 50  0000 C CNN
+F 1 "39R 1%" V 4950 4650 50  0000 C CNN
+F 2 "" H 4950 4600 50  0001 C CNN
+F 3 "~" H 4950 4600 50  0001 C CNN
+	1    4950 4600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 4600 5250 4600
+Wire Wire Line
+	4850 4600 4750 4600
+$Comp
+L Device:R_Small R?
+U 1 1 5D3EC3B0
+P 4950 4800
+F 0 "R?" V 4850 4800 50  0000 C CNN
+F 1 "39R 1%" V 4950 4850 50  0000 C CNN
+F 2 "" H 4950 4800 50  0001 C CNN
+F 3 "~" H 4950 4800 50  0001 C CNN
+	1    4950 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5050 4800 5250 4800
+Wire Wire Line
+	4850 4800 4750 4800
+$Comp
+L Device:R_Small R?
+U 1 1 5D55A982
+P 8950 9400
+F 0 "R?" V 9025 9375 50  0000 L CNN
+F 1 "NC" V 8950 9350 50  0000 L CNN
+F 2 "" H 8950 9400 50  0001 C CNN
+F 3 "~" H 8950 9400 50  0001 C CNN
+	1    8950 9400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D55D00E
+P 9100 9250
+F 0 "R?" V 9175 9225 50  0000 L CNN
+F 1 "NC" V 9100 9200 50  0000 L CNN
+F 2 "" H 9100 9250 50  0001 C CNN
+F 3 "~" H 9100 9250 50  0001 C CNN
+	1    9100 9250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D55D427
+P 9250 9150
+F 0 "R?" V 9325 9125 50  0000 L CNN
+F 1 "NC" V 9250 9100 50  0000 L CNN
+F 2 "" H 9250 9150 50  0001 C CNN
+F 3 "~" H 9250 9150 50  0001 C CNN
+	1    9250 9150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5D55D7D8
+P 9350 9400
+F 0 "R?" V 9425 9375 50  0000 L CNN
+F 1 "NC" V 9350 9350 50  0000 L CNN
+F 2 "" H 9350 9400 50  0001 C CNN
+F 3 "~" H 9350 9400 50  0001 C CNN
+	1    9350 9400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 8900 9350 9300
+Wire Wire Line
+	9350 9500 9350 9700
+Wire Wire Line
+	9350 8900 9800 8900
+Connection ~ 9350 8900
+Wire Wire Line
+	9250 9250 9250 9700
+Wire Wire Line
+	9250 9050 9250 9000
+Connection ~ 9250 9000
+Wire Wire Line
+	9250 9000 9800 9000
+Wire Wire Line
+	9100 9150 9100 9100
+Connection ~ 9100 9100
+Wire Wire Line
+	9100 9100 9800 9100
+Wire Wire Line
+	9100 9350 9100 9700
+Wire Wire Line
+	8950 9300 8950 9200
+Connection ~ 8950 9200
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J?
+U 1 1 5D9F2DC9
+P 12700 8225
+F 0 "J?" H 12750 8550 50  0000 C CNN
+F 1 "Conn_02x05" H 12750 7875 50  0000 C CNN
+F 2 "" H 12700 8225 50  0001 C CNN
+F 3 "~" H 12700 8225 50  0001 C CNN
+	1    12700 8225
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R11
+U 1 1 5D9F4E25
+P 13850 8425
+F 0 "R11" V 13925 8400 50  0000 L CNN
+F 1 "0" V 13850 8375 50  0000 L CNN
+F 2 "" H 13850 8425 50  0001 C CNN
+F 3 "~" H 13850 8425 50  0001 C CNN
+	1    13850 8425
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	13650 8425 13750 8425
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5DAB7AAB
+P 12150 8775
+AR Path="/5DAB7AAB" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5DAB7AAB" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5DAB7AAB" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 12150 8775 60  0001 C CNN
+F 1 "IGND" H 12075 8650 59  0000 L BNN
+F 2 "" H 12150 8775 60  0001 C CNN
+F 3 "" H 12150 8775 60  0001 C CNN
+	1    12150 8775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Crystal Y1
+U 1 1 5DB20049
+P 3525 3800
+F 0 "Y1" V 3479 3931 50  0000 L CNN
+F 1 "12Mhz" V 3570 3931 50  0000 L CNN
+F 2 "" H 3525 3800 50  0001 C CNN
+F 3 "~" H 3525 3800 50  0001 C CNN
+	1    3525 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:Crystal Y2
+U 1 1 5DB21C39
+P 3525 4350
+F 0 "Y2" V 3479 4481 50  0000 L CNN
+F 1 "32.768Khz" V 3570 4481 50  0000 L CNN
+F 2 "" H 3525 4350 50  0001 C CNN
+F 3 "~" H 3525 4350 50  0001 C CNN
+	1    3525 4350
+	0    1    1    0   
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5DB256A8
+P 2800 4250
+AR Path="/5DB256A8" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5DB256A8" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5DB256A8" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 2800 4250 60  0001 C CNN
+F 1 "IGND" H 2700 4150 59  0000 L BNN
+F 2 "" H 2800 4250 60  0001 C CNN
+F 3 "" H 2800 4250 60  0001 C CNN
+	1    2800 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L SparkFun-Capacitors:22PF-0603-50V-5% C?
+U 1 1 5DB26419
+P 3300 3650
+F 0 "C?" V 3225 3825 45  0000 R CNN
+F 1 "22p" V 3375 3875 45  0000 R CNN
+F 2 "0603" H 3300 3900 20  0001 C CNN
+F 3 "" H 3300 3650 50  0001 C CNN
+F 4 "CAP-07876" V 3139 3700 60  0001 C CNN "Field4"
+	1    3300 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-Capacitors:22PF-0603-50V-5% C?
+U 1 1 5DBECFD6
+P 3300 3950
+F 0 "C?" V 3225 4125 45  0000 R CNN
+F 1 "22p" V 3375 4175 45  0000 R CNN
+F 2 "0603" H 3300 4200 20  0001 C CNN
+F 3 "" H 3300 3950 50  0001 C CNN
+F 4 "CAP-07876" V 3139 4000 60  0001 C CNN "Field4"
+	1    3300 3950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-Capacitors:22PF-0603-50V-5% C?
+U 1 1 5DC3A36A
+P 3300 4200
+F 0 "C?" V 3225 4375 45  0000 R CNN
+F 1 "22p" V 3375 4425 45  0000 R CNN
+F 2 "0603" H 3300 4450 20  0001 C CNN
+F 3 "" H 3300 4200 50  0001 C CNN
+F 4 "CAP-07876" V 3139 4250 60  0001 C CNN "Field4"
+	1    3300 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L SparkFun-Capacitors:22PF-0603-50V-5% C?
+U 1 1 5DC3A371
+P 3300 4500
+F 0 "C?" V 3225 4675 45  0000 R CNN
+F 1 "22p" V 3375 4725 45  0000 R CNN
+F 2 "0603" H 3300 4750 20  0001 C CNN
+F 3 "" H 3300 4500 50  0001 C CNN
+F 4 "CAP-07876" V 3139 4550 60  0001 C CNN "Field4"
+	1    3300 4500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3400 3650 3525 3650
+Connection ~ 3525 3650
+Wire Wire Line
+	2950 3650 3100 3650
+Wire Wire Line
+	3100 3950 2950 3950
+Connection ~ 2950 3950
+Wire Wire Line
+	2950 3950 2950 4050
+Wire Wire Line
+	3100 4200 2950 4200
+Wire Wire Line
+	2950 4050 2950 4200
+Connection ~ 2950 4200
+Wire Wire Line
+	2950 4200 2950 4500
+Wire Wire Line
+	3400 3950 3525 3950
+Connection ~ 3525 3950
+Wire Wire Line
+	3400 4200 3525 4200
+Connection ~ 3525 4200
+Wire Wire Line
+	3400 4500 3525 4500
+Connection ~ 3525 4500
+Wire Wire Line
+	2950 4500 3100 4500
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5DF31639
+P 4700 3800
+AR Path="/5DF31639" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5DF31639" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5DF31639" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 4700 3800 60  0001 C CNN
+F 1 "IGND" H 4600 3700 59  0000 L BNN
+F 2 "" H 4700 3800 60  0001 C CNN
+F 3 "" H 4700 3800 60  0001 C CNN
+	1    4700 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5DF337DB
+P 5000 3700
+F 0 "R?" V 5075 3675 50  0000 L CNN
+F 1 "NC" V 5000 3650 50  0000 L CNN
+F 2 "" H 5000 3700 50  0001 C CNN
+F 3 "~" H 5000 3700 50  0001 C CNN
+	1    5000 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4700 3700 4900 3700
+Wire Wire Line
+	5100 3700 5250 3700
+Connection ~ 9900 2500
+Wire Wire Line
+	9900 2500 10250 2500
+Connection ~ 9900 2800
+Connection ~ 10250 2500
+Wire Wire Line
+	10250 2500 10600 2500
+$Comp
+L RocketScream:INDUCTOR L?
+U 1 1 5E0D75CF
+P 9350 2500
+F 0 "L?" H 9350 2625 50  0000 C CNN
+F 1 "MH2029-300Y" H 9375 2425 50  0000 C CNN
+F 2 "RocketScreamKicadLibrary:IND-0603" H 9350 2350 60  0001 C CNN
+F 3 "" V 9350 2500 60  0000 C CNN
+	1    9350 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 2500 9900 2500
+Wire Wire Line
+	9950 4000 9950 3900
+Wire Wire Line
+	9950 3300 9800 3300
+Connection ~ 9950 3700
+Wire Wire Line
+	9950 3700 9950 3300
+Connection ~ 9950 3800
+Wire Wire Line
+	9950 3800 9950 3700
+Connection ~ 9950 3900
+Wire Wire Line
+	9950 3900 9950 3800
+Connection ~ 9150 3300
+Wire Wire Line
+	9150 3300 9050 3300
+Connection ~ 9250 3300
+Wire Wire Line
+	9250 3300 9150 3300
+Connection ~ 9350 3300
+Wire Wire Line
+	9350 3300 9250 3300
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5E21DCF4
+P 9800 3400
+AR Path="/5E21DCF4" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5E21DCF4" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5E21DCF4" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 9800 3400 60  0001 C CNN
+F 1 "IGND" H 9700 3300 59  0000 L BNN
+F 2 "" H 9800 3400 60  0001 C CNN
+F 3 "" H 9800 3400 60  0001 C CNN
+	1    9800 3400
+	1    0    0    -1  
+$EndComp
+Connection ~ 9800 3300
+Wire Wire Line
+	9800 3300 9350 3300
+$Comp
+L RocketScream:INDUCTOR L?
+U 1 1 5E224D96
+P 12550 1950
+F 0 "L?" H 12550 2075 50  0000 C CNN
+F 1 "MH2029-300Y" H 12575 1875 50  0000 C CNN
+F 2 "RocketScreamKicadLibrary:IND-0603" H 12550 1800 60  0001 C CNN
+F 3 "" V 12550 1950 60  0000 C CNN
+	1    12550 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScream:INDUCTOR L?
+U 1 1 5E225220
+P 12550 2650
+F 0 "L?" H 12550 2775 50  0000 C CNN
+F 1 "MH2029-300Y" H 12575 2575 50  0000 C CNN
+F 2 "RocketScreamKicadLibrary:IND-0603" H 12550 2500 60  0001 C CNN
+F 3 "" V 12550 2650 60  0000 C CNN
+	1    12550 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L RocketScream:INDUCTOR L?
+U 1 1 5E2256E1
+P 12550 3300
+F 0 "L?" H 12550 3425 50  0000 C CNN
+F 1 "MH2029-300Y" H 12575 3225 50  0000 C CNN
+F 2 "RocketScreamKicadLibrary:IND-0603" H 12550 3150 60  0001 C CNN
+F 3 "" V 12550 3300 60  0000 C CNN
+	1    12550 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E22738A
+P 13100 2050
+AR Path="/5E22738A" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E22738A" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E22738A" Ref="C?"  Part="1" 
+F 0 "C?" H 13140 2075 59  0000 L BNN
+F 1 "0.1u" H 13140 1885 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 13100 2050 60  0001 C CNN
+F 3 "" H 13100 2050 60  0001 C CNN
+	1    13100 2050
+	-1   0    0    -1  
+$EndComp
+Connection ~ 13100 1950
+Wire Wire Line
+	13100 1950 13450 1950
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E227FDA
+P 13450 2050
+AR Path="/5E227FDA" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E227FDA" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E227FDA" Ref="C?"  Part="1" 
+F 0 "C?" H 13490 2075 59  0000 L BNN
+F 1 "10u" H 13490 1885 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 13450 2050 60  0001 C CNN
+F 3 "" H 13450 2050 60  0001 C CNN
+	1    13450 2050
+	-1   0    0    -1  
+$EndComp
+Connection ~ 13450 1950
+Wire Wire Line
+	13450 1950 13800 1950
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E2284EC
+P 13100 2750
+AR Path="/5E2284EC" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E2284EC" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E2284EC" Ref="C?"  Part="1" 
+F 0 "C?" H 13140 2775 59  0000 L BNN
+F 1 "0.1u" H 13140 2585 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 13100 2750 60  0001 C CNN
+F 3 "" H 13100 2750 60  0001 C CNN
+	1    13100 2750
+	-1   0    0    -1  
+$EndComp
+Connection ~ 13100 2650
+Wire Wire Line
+	13100 2650 13450 2650
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E228984
+P 13100 3400
+AR Path="/5E228984" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E228984" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E228984" Ref="C?"  Part="1" 
+F 0 "C?" H 13140 3425 59  0000 L BNN
+F 1 "0.1u" H 13140 3235 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 13100 3400 60  0001 C CNN
+F 3 "" H 13100 3400 60  0001 C CNN
+	1    13100 3400
+	-1   0    0    -1  
+$EndComp
+Connection ~ 13100 3300
+Wire Wire Line
+	13100 3300 13450 3300
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E228E58
+P 13450 2750
+AR Path="/5E228E58" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E228E58" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E228E58" Ref="C?"  Part="1" 
+F 0 "C?" H 13490 2775 59  0000 L BNN
+F 1 "10u" H 13490 2585 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 13450 2750 60  0001 C CNN
+F 3 "" H 13450 2750 60  0001 C CNN
+	1    13450 2750
+	-1   0    0    -1  
+$EndComp
+Connection ~ 13450 2650
+Wire Wire Line
+	13450 2650 13800 2650
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E229325
+P 13450 3400
+AR Path="/5E229325" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E229325" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E229325" Ref="C?"  Part="1" 
+F 0 "C?" H 13490 3425 59  0000 L BNN
+F 1 "10u" H 13490 3235 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 13450 3400 60  0001 C CNN
+F 3 "" H 13450 3400 60  0001 C CNN
+	1    13450 3400
+	-1   0    0    -1  
+$EndComp
+Connection ~ 13450 3300
+Wire Wire Line
+	13450 3300 13800 3300
+Wire Wire Line
+	12850 1950 13100 1950
+Wire Wire Line
+	12850 2650 13100 2650
+Wire Wire Line
+	12850 3300 13100 3300
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5E2E498F
+P 13300 2350
+AR Path="/5E2E498F" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5E2E498F" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5E2E498F" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 13300 2350 60  0001 C CNN
+F 1 "IGND" H 13200 2250 59  0000 L BNN
+F 2 "" H 13300 2350 60  0001 C CNN
+F 3 "" H 13300 2350 60  0001 C CNN
+	1    13300 2350
+	1    0    0    -1  
+$EndComp
+Connection ~ 13300 2250
+Wire Wire Line
+	13300 2250 13450 2250
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5E2E4E82
+P 13300 3050
+AR Path="/5E2E4E82" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5E2E4E82" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5E2E4E82" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 13300 3050 60  0001 C CNN
+F 1 "IGND" H 13200 2950 59  0000 L BNN
+F 2 "" H 13300 3050 60  0001 C CNN
+F 3 "" H 13300 3050 60  0001 C CNN
+	1    13300 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 13300 2950
+Wire Wire Line
+	13300 2950 13450 2950
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5E2E5328
+P 13300 3700
+AR Path="/5E2E5328" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5E2E5328" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5E2E5328" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 13300 3700 60  0001 C CNN
+F 1 "IGND" H 13200 3600 59  0000 L BNN
+F 2 "" H 13300 3700 60  0001 C CNN
+F 3 "" H 13300 3700 60  0001 C CNN
+	1    13300 3700
+	1    0    0    -1  
+$EndComp
+Connection ~ 13300 3600
+Wire Wire Line
+	13300 3600 13450 3600
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E37E6AC
+P 4650 1575
+AR Path="/5E37E6AC" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E37E6AC" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E37E6AC" Ref="C?"  Part="1" 
+F 0 "C?" H 4690 1600 59  0000 L BNN
+F 1 "0.01u" H 4690 1410 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 4650 1575 60  0001 C CNN
+F 3 "" H 4650 1575 60  0001 C CNN
+	1    4650 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R16
+U 1 1 5E608EC3
+P 2500 9850
+F 0 "R16" V 2575 9775 50  0000 L CNN
+F 1 "1k5" V 2500 9775 50  0000 L CNN
+F 2 "" H 2500 9850 50  0001 C CNN
+F 3 "~" H 2500 9850 50  0001 C CNN
+	1    2500 9850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R17
+U 1 1 5E609736
+P 2700 10050
+F 0 "R17" V 2800 9950 50  0000 L CNN
+F 1 "1k5" V 2700 9975 50  0000 L CNN
+F 2 "" H 2700 10050 50  0001 C CNN
+F 3 "~" H 2700 10050 50  0001 C CNN
+	1    2700 10050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 9700 2500 9750
+Connection ~ 2500 9700
+Wire Wire Line
+	2500 9950 2500 10000
+Connection ~ 2500 10000
+Wire Wire Line
+	2500 10000 3200 10000
+Wire Wire Line
+	2700 9700 2700 9950
+Wire Wire Line
+	2700 10150 2700 10200
+Connection ~ 2700 10200
+Wire Wire Line
+	2700 10200 3200 10200
+$Comp
+L GEVCU-6-2c-eagle-import:R-US_R0805 R?
+U 1 1 5E70D844
+P 13050 7625
+AR Path="/5E70D844" Ref="R?"  Part="1" 
+AR Path="/5C3E11A6/5E70D844" Ref="R?"  Part="1" 
+AR Path="/5EC02B29/5E70D844" Ref="R?"  Part="1" 
+F 0 "R?" H 12900 7684 59  0000 L BNN
+F 1 "100k" H 12900 7495 59  0000 L BNN
+F 2 "GEVCU-6-2c:R0805" H 13050 7625 60  0001 C CNN
+F 3 "" H 13050 7625 60  0001 C CNN
+	1    13050 7625
+	0    1    -1   0   
+$EndComp
+Connection ~ 13050 7425
+Wire Wire Line
+	13050 7425 13250 7425
+$Comp
+L GEVCU-6-2c-eagle-import:R-US_R0805 R?
+U 1 1 5E73680C
+P 13250 7625
+AR Path="/5E73680C" Ref="R?"  Part="1" 
+AR Path="/5C3E11A6/5E73680C" Ref="R?"  Part="1" 
+AR Path="/5EC02B29/5E73680C" Ref="R?"  Part="1" 
+F 0 "R?" H 13100 7684 59  0000 L BNN
+F 1 "100k" H 13100 7495 59  0000 L BNN
+F 2 "GEVCU-6-2c:R0805" H 13250 7625 60  0001 C CNN
+F 3 "" H 13250 7625 60  0001 C CNN
+	1    13250 7625
+	0    1    -1   0   
+$EndComp
+Connection ~ 13250 7425
+Wire Wire Line
+	13250 7425 13450 7425
+$Comp
+L GEVCU-6-2c-eagle-import:R-US_R0805 R?
+U 1 1 5E736EC6
+P 13650 7625
+AR Path="/5E736EC6" Ref="R?"  Part="1" 
+AR Path="/5C3E11A6/5E736EC6" Ref="R?"  Part="1" 
+AR Path="/5EC02B29/5E736EC6" Ref="R?"  Part="1" 
+F 0 "R?" H 13500 7684 59  0000 L BNN
+F 1 "100k" H 13500 7495 59  0000 L BNN
+F 2 "GEVCU-6-2c:R0805" H 13650 7625 60  0001 C CNN
+F 3 "" H 13650 7625 60  0001 C CNN
+	1    13650 7625
+	0    1    -1   0   
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:R-US_R0805 R?
+U 1 1 5E737638
+P 13450 7625
+AR Path="/5E737638" Ref="R?"  Part="1" 
+AR Path="/5C3E11A6/5E737638" Ref="R?"  Part="1" 
+AR Path="/5EC02B29/5E737638" Ref="R?"  Part="1" 
+F 0 "R?" H 13300 7684 59  0000 L BNN
+F 1 "100k" H 13300 7495 59  0000 L BNN
+F 2 "GEVCU-6-2c:R0805" H 13450 7625 60  0001 C CNN
+F 3 "" H 13450 7625 60  0001 C CNN
+	1    13450 7625
+	0    1    -1   0   
+$EndComp
+Connection ~ 13450 7425
+Wire Wire Line
+	13450 7425 13650 7425
+Wire Wire Line
+	12150 7425 12150 8025
+Connection ~ 12150 7425
+Wire Wire Line
+	11950 6150 11950 6050
+Wire Wire Line
+	11950 6150 12350 6150
+Wire Wire Line
+	12350 6150 12750 6150
+Wire Wire Line
+	12750 6150 13150 6150
+Wire Wire Line
+	13150 6150 13550 6150
+Wire Wire Line
+	13550 6150 13950 6150
+Wire Wire Line
+	13950 6150 14350 6150
+Wire Wire Line
+	14350 6050 14350 6150
+Wire Wire Line
+	13950 6050 13950 6150
+Wire Wire Line
+	13550 6050 13550 6150
+Wire Wire Line
+	13150 6050 13150 6150
+Wire Wire Line
+	12750 6050 12750 6150
+Wire Wire Line
+	12350 6050 12350 6150
+Connection ~ 13950 6150
+Connection ~ 13550 6150
+Connection ~ 13150 6150
+Connection ~ 12750 6150
+Connection ~ 12350 6150
+Wire Wire Line
+	11950 5750 11950 5650
+Wire Wire Line
+	11950 5650 12350 5650
+Wire Wire Line
+	12350 5650 12750 5650
+Wire Wire Line
+	12750 5650 13150 5650
+Wire Wire Line
+	13150 5650 13550 5650
+Wire Wire Line
+	13550 5650 13950 5650
+Wire Wire Line
+	13950 5650 14350 5650
+Wire Wire Line
+	14350 5650 14350 5750
+Wire Wire Line
+	13950 5750 13950 5650
+Wire Wire Line
+	13550 5750 13550 5650
+Wire Wire Line
+	13150 5750 13150 5650
+Wire Wire Line
+	12750 5750 12750 5650
+Wire Wire Line
+	12350 5750 12350 5650
+Text Label 13850 5650 0    70   ~ 0
+VDDOUT
+Connection ~ 12350 5650
+Connection ~ 12750 5650
+Connection ~ 13150 5650
+Connection ~ 13550 5650
+Connection ~ 13950 5650
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E7D4DBD
+P 11950 5850
+AR Path="/5E7D4DBD" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E7D4DBD" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E7D4DBD" Ref="C?"  Part="1" 
+F 0 "C?" H 11990 5875 59  0000 L BNN
+F 1 "10u" H 11990 5685 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 11950 5850 60  0001 C CNN
+F 3 "" H 11950 5850 60  0001 C CNN
+	1    11950 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5E7D4DC3
+P 12750 6400
+AR Path="/5E7D4DC3" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5E7D4DC3" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5E7D4DC3" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 12750 6400 60  0001 C CNN
+F 1 "IGND" H 12650 6300 59  0000 L BNN
+F 2 "" H 12750 6400 60  0001 C CNN
+F 3 "" H 12750 6400 60  0001 C CNN
+	1    12750 6400
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E7D4DCF
+P 12350 5850
+AR Path="/5E7D4DCF" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E7D4DCF" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E7D4DCF" Ref="C?"  Part="1" 
+F 0 "C?" H 12390 5875 59  0000 L BNN
+F 1 "0.1u" H 12390 5685 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 12350 5850 60  0001 C CNN
+F 3 "" H 12350 5850 60  0001 C CNN
+	1    12350 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E7D4DD5
+P 12750 5850
+AR Path="/5E7D4DD5" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E7D4DD5" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E7D4DD5" Ref="C?"  Part="1" 
+F 0 "C?" H 12790 5875 59  0000 L BNN
+F 1 "0.1u" H 12790 5685 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 12750 5850 60  0001 C CNN
+F 3 "" H 12750 5850 60  0001 C CNN
+	1    12750 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E7D4DDB
+P 13150 5850
+AR Path="/5E7D4DDB" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E7D4DDB" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E7D4DDB" Ref="C?"  Part="1" 
+F 0 "C?" H 13190 5875 59  0000 L BNN
+F 1 "0.1u" H 13190 5685 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 13150 5850 60  0001 C CNN
+F 3 "" H 13150 5850 60  0001 C CNN
+	1    13150 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E7D4DE1
+P 13550 5850
+AR Path="/5E7D4DE1" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E7D4DE1" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E7D4DE1" Ref="C?"  Part="1" 
+F 0 "C?" H 13590 5875 59  0000 L BNN
+F 1 "0.1u" H 13590 5685 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 13550 5850 60  0001 C CNN
+F 3 "" H 13550 5850 60  0001 C CNN
+	1    13550 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E7D4DE7
+P 13950 5850
+AR Path="/5E7D4DE7" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E7D4DE7" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E7D4DE7" Ref="C?"  Part="1" 
+F 0 "C?" H 13990 5875 59  0000 L BNN
+F 1 "0.1u" H 13990 5685 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 13950 5850 60  0001 C CNN
+F 3 "" H 13950 5850 60  0001 C CNN
+	1    13950 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E7D4DED
+P 14350 5850
+AR Path="/5E7D4DED" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E7D4DED" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E7D4DED" Ref="C?"  Part="1" 
+F 0 "C?" H 14390 5875 59  0000 L BNN
+F 1 "0.1u" H 14390 5685 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 14350 5850 60  0001 C CNN
+F 3 "" H 14350 5850 60  0001 C CNN
+	1    14350 5850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E7D4DFF
+P 13125 4775
+AR Path="/5E7D4DFF" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E7D4DFF" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E7D4DFF" Ref="C21"  Part="1" 
+F 0 "C21" H 13165 4800 59  0000 L BNN
+F 1 "0.1u" H 13165 4610 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 13125 4775 60  0001 C CNN
+F 3 "" H 13125 4775 60  0001 C CNN
+	1    13125 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E7D4E05
+P 13625 4775
+AR Path="/5E7D4E05" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E7D4E05" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E7D4E05" Ref="C23"  Part="1" 
+F 0 "C23" H 13665 4800 59  0000 L BNN
+F 1 "0.1u" H 13665 4610 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 13625 4775 60  0001 C CNN
+F 3 "" H 13625 4775 60  0001 C CNN
+	1    13625 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E7D4E0B
+P 14025 4775
+AR Path="/5E7D4E0B" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E7D4E0B" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E7D4E0B" Ref="C25"  Part="1" 
+F 0 "C25" H 14065 4800 59  0000 L BNN
+F 1 "0.1u" H 14065 4610 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 14025 4775 60  0001 C CNN
+F 3 "" H 14025 4775 60  0001 C CNN
+	1    14025 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E9BB52B
+P 12000 4775
+AR Path="/5E9BB52B" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E9BB52B" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E9BB52B" Ref="C9"  Part="1" 
+F 0 "C9" H 12040 4800 59  0000 L BNN
+F 1 "0.1u" H 12040 4610 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 12000 4775 60  0001 C CNN
+F 3 "" H 12000 4775 60  0001 C CNN
+	1    12000 4775
+	-1   0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E9BE04F
+P 12350 4775
+AR Path="/5E9BE04F" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E9BE04F" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E9BE04F" Ref="C11"  Part="1" 
+F 0 "C11" H 12390 4800 59  0000 L BNN
+F 1 "10u" H 12390 4610 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 12350 4775 60  0001 C CNN
+F 3 "" H 12350 4775 60  0001 C CNN
+	1    12350 4775
+	-1   0    0    -1  
+$EndComp
+Connection ~ 12350 4975
+Wire Wire Line
+	12350 4975 12800 4975
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5E9C2B61
+P 12800 5175
+AR Path="/5E9C2B61" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5E9C2B61" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5E9C2B61" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 12800 5175 60  0001 C CNN
+F 1 "IGND" H 12700 5075 59  0000 L BNN
+F 2 "" H 12800 5175 60  0001 C CNN
+F 3 "" H 12800 5175 60  0001 C CNN
+	1    12800 5175
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5E9C8C94
+P 12800 4775
+AR Path="/5E9C8C94" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5E9C8C94" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5E9C8C94" Ref="C16"  Part="1" 
+F 0 "C16" H 12840 4800 59  0000 L BNN
+F 1 "0.1u" H 12840 4610 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 12800 4775 60  0001 C CNN
+F 3 "" H 12800 4775 60  0001 C CNN
+	1    12800 4775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	12800 4975 13125 4975
+Wire Wire Line
+	12800 4675 13125 4675
+Connection ~ 13125 4675
+Wire Wire Line
+	13125 4675 13350 4675
+Connection ~ 13125 4975
+Wire Wire Line
+	13125 4975 13625 4975
+Connection ~ 13625 4675
+Connection ~ 13625 4975
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5EADA4F0
+P 14375 4775
+AR Path="/5EADA4F0" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5EADA4F0" Ref="C?"  Part="1" 
+AR Path="/5EC02B29/5EADA4F0" Ref="C27"  Part="1" 
+F 0 "C27" H 14415 4800 59  0000 L BNN
+F 1 "0.1u" H 14415 4610 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 14375 4775 60  0001 C CNN
+F 3 "" H 14375 4775 60  0001 C CNN
+	1    14375 4775
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	13625 4675 14025 4675
+Connection ~ 14025 4675
+Wire Wire Line
+	14025 4675 14375 4675
+Wire Wire Line
+	13625 4975 14025 4975
+Connection ~ 14025 4975
+Wire Wire Line
+	14025 4975 14375 4975
+Text HLabel 2050 9525 0    60   Input ~ 0
++3.3V
+Wire Wire Line
+	12750 6150 12750 6300
+Wire Wire Line
+	3525 3650 4500 3650
+Wire Wire Line
+	4025 4000 5250 4000
+Wire Wire Line
+	3525 4200 5250 4200
+Wire Wire Line
+	3925 4300 5250 4300
+$Comp
+L RocketScream:INDUCTOR L?
+U 1 1 5E1422FE
+P 7600 1950
+F 0 "L?" H 7600 2075 50  0000 C CNN
+F 1 "MH2029-300Y" H 7625 1875 50  0000 C CNN
+F 2 "RocketScreamKicadLibrary:IND-0603" H 7600 1800 60  0001 C CNN
+F 3 "" V 7600 1950 60  0000 C CNN
+	1    7600 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7900 1450 7900 1950
+Connection ~ 7300 1950
+Connection ~ 7900 1950
+Wire Wire Line
+	7900 1950 7900 2050
+Text HLabel 12000 9900 0    60   Output ~ 0
+ERASE
+Wire Wire Line
+	13650 9900 12000 9900
+$Comp
+L GEVCU-6-2c-eagle-import:+3V3 #+3V?
+U 1 1 5E681B28
+P 12150 7025
+AR Path="/5E681B28" Ref="#+3V?"  Part="1" 
+AR Path="/5C2F3FAA/5E681B28" Ref="#+3V?"  Part="1" 
+AR Path="/5EC02B29/5E681B28" Ref="#+3V?"  Part="1" 
+F 0 "#+3V?" H 12150 7025 60  0001 C CNN
+F 1 "+3V3" H 12000 7050 59  0000 L BNN
+F 2 "" H 12150 7025 60  0001 C CNN
+F 3 "" H 12150 7025 60  0001 C CNN
+	1    12150 7025
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:+3V3 #+3V?
+U 1 1 5E6AE4E7
+P 12750 4075
+AR Path="/5E6AE4E7" Ref="#+3V?"  Part="1" 
+AR Path="/5C2F3FAA/5E6AE4E7" Ref="#+3V?"  Part="1" 
+AR Path="/5EC02B29/5E6AE4E7" Ref="#+3V?"  Part="1" 
+F 0 "#+3V?" H 12750 4075 60  0001 C CNN
+F 1 "+3V3" H 12600 4100 59  0000 L BNN
+F 2 "" H 12750 4075 60  0001 C CNN
+F 3 "" H 12750 4075 60  0001 C CNN
+	1    12750 4075
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:+3V3 #+3V?
+U 1 1 5E6B25E5
+P 11975 1675
+AR Path="/5E6B25E5" Ref="#+3V?"  Part="1" 
+AR Path="/5C2F3FAA/5E6B25E5" Ref="#+3V?"  Part="1" 
+AR Path="/5EC02B29/5E6B25E5" Ref="#+3V?"  Part="1" 
+F 0 "#+3V?" H 11975 1675 60  0001 C CNN
+F 1 "+3V3" H 11825 1700 59  0000 L BNN
+F 2 "" H 11975 1675 60  0001 C CNN
+F 3 "" H 11975 1675 60  0001 C CNN
+	1    11975 1675
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11975 1775 11975 1950
+Wire Wire Line
+	11975 3300 12250 3300
+Wire Wire Line
+	11975 2650 12250 2650
+Connection ~ 11975 2650
+Wire Wire Line
+	11975 2650 11975 3300
+Wire Wire Line
+	11975 1950 12250 1950
+Connection ~ 11975 1950
+Wire Wire Line
+	11975 1950 11975 2650
+$Comp
+L GEVCU-6-2c-eagle-import:+3V3 #+3V?
+U 1 1 5E7143EF
+P 4650 1175
+AR Path="/5E7143EF" Ref="#+3V?"  Part="1" 
+AR Path="/5C2F3FAA/5E7143EF" Ref="#+3V?"  Part="1" 
+AR Path="/5EC02B29/5E7143EF" Ref="#+3V?"  Part="1" 
+F 0 "#+3V?" H 4650 1175 60  0001 C CNN
+F 1 "+3V3" H 4500 1200 59  0000 L BNN
+F 2 "" H 4650 1175 60  0001 C CNN
+F 3 "" H 4650 1175 60  0001 C CNN
+	1    4650 1175
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:+3V3 #+3V?
+U 1 1 5E71502C
+P 2500 9275
+AR Path="/5E71502C" Ref="#+3V?"  Part="1" 
+AR Path="/5C2F3FAA/5E71502C" Ref="#+3V?"  Part="1" 
+AR Path="/5EC02B29/5E71502C" Ref="#+3V?"  Part="1" 
+F 0 "#+3V?" H 2500 9275 60  0001 C CNN
+F 1 "+3V3" H 2350 9300 59  0000 L BNN
+F 2 "" H 2500 9275 60  0001 C CNN
+F 3 "" H 2500 9275 60  0001 C CNN
+	1    2500 9275
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 9525 2500 9700
+$Comp
+L GEVCU-6-2c-eagle-import:+3V3 #+3V?
+U 1 1 5E7381DB
+P 12350 5375
+AR Path="/5E7381DB" Ref="#+3V?"  Part="1" 
+AR Path="/5C2F3FAA/5E7381DB" Ref="#+3V?"  Part="1" 
+AR Path="/5EC02B29/5E7381DB" Ref="#+3V?"  Part="1" 
+F 0 "#+3V?" H 12350 5375 60  0001 C CNN
+F 1 "+3V3" H 12200 5400 59  0000 L BNN
+F 2 "" H 12350 5375 60  0001 C CNN
+F 3 "" H 12350 5375 60  0001 C CNN
+	1    12350 5375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12350 5475 12350 5650
+Wire Wire Line
+	6350 2400 6350 2700
+Wire Wire Line
+	6050 3300 6050 2250
+Wire Wire Line
+	6050 2250 5800 2250
+Wire Wire Line
+	5800 2250 5800 2350
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5E7A3CED
+P 5800 2450
+AR Path="/5E7A3CED" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5E7A3CED" Ref="#GND?"  Part="1" 
+AR Path="/5EC02B29/5E7A3CED" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 5800 2450 60  0001 C CNN
+F 1 "IGND" H 5700 2350 59  0000 L BNN
+F 2 "" H 5800 2450 60  0001 C CNN
+F 3 "" H 5800 2450 60  0001 C CNN
+	1    5800 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4650 1875 6650 1875
+Wire Wire Line
+	6650 1875 6650 3300
+Wire Wire Line
+	4650 1875 3875 1875
+Wire Wire Line
+	2500 9375 2500 9525
+Connection ~ 2500 9525
+Wire Wire Line
+	13950 8425 14600 8425
+Wire Wire Line
+	13450 8325 14600 8325
+Wire Wire Line
+	13000 8225 14600 8225
+Wire Wire Line
+	13250 8125 14600 8125
+Wire Wire Line
+	13050 8025 14600 8025
+Wire Bus Line
+	8850 9800 9450 9800
+Wire Bus Line
+	10350 4300 10350 5300
+Wire Bus Line
+	4900 5600 4900 8900
+Wire Bus Line
+	5600 9100 8950 9100
+Wire Bus Line
+	10350 5500 10350 8600
+$EndSCHEMATC

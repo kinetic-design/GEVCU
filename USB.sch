@@ -1,0 +1,442 @@
+EESchema Schematic File Version 4
+LIBS:GEVCU-6-2c-cache
+EELAYER 29 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 16
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 8050 3600 0    215  ~ 0
+NATIVE USB PORT
+$Comp
+L Connector:USB_B J?
+U 1 1 5F07A169
+P 4950 3500
+F 0 "J?" H 5007 3967 50  0000 C CNN
+F 1 "USB_B" H 5007 3876 50  0000 C CNN
+F 2 "" H 5100 3450 50  0001 C CNN
+F 3 " ~" H 5100 3450 50  0001 C CNN
+	1    4950 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:USB_B J?
+U 1 1 5F07A917
+P 4950 5050
+F 0 "J?" H 5007 5517 50  0000 C CNN
+F 1 "USB_B" H 5007 5426 50  0000 C CNN
+F 2 "" H 5100 5000 50  0001 C CNN
+F 3 " ~" H 5100 5000 50  0001 C CNN
+	1    4950 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F0B0FD1
+P 4950 4100
+F 0 "#PWR?" H 4950 3850 50  0001 C CNN
+F 1 "GND" H 4955 3927 50  0000 C CNN
+F 2 "" H 4950 4100 50  0001 C CNN
+F 3 "" H 4950 4100 50  0001 C CNN
+	1    4950 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5F0B11B5
+P 4950 5650
+F 0 "#PWR?" H 4950 5400 50  0001 C CNN
+F 1 "GND" H 4955 5477 50  0000 C CNN
+F 2 "" H 4950 5650 50  0001 C CNN
+F 3 "" H 4950 5650 50  0001 C CNN
+	1    4950 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 5650 4950 5550
+Wire Wire Line
+	4850 5450 4850 5550
+Wire Wire Line
+	4850 5550 4950 5550
+Connection ~ 4950 5550
+Wire Wire Line
+	4950 5550 4950 5450
+Wire Wire Line
+	4950 4100 4950 4000
+Wire Wire Line
+	4850 3900 4850 4000
+Wire Wire Line
+	4850 4000 4950 4000
+Connection ~ 4950 4000
+Wire Wire Line
+	4950 4000 4950 3900
+Text HLabel 6100 3300 2    60   Output ~ 0
+VBUS
+Wire Wire Line
+	5950 3100 6400 3100
+Text Label 6100 3100 0    60   ~ 0
++5V
+$Comp
+L Device:D_Schottky_x2_Serial_AKC D?
+U 1 1 5F0BCBBD
+P 6450 4000
+F 0 "D?" H 6450 4123 50  0000 C CNN
+F 1 "D_Schottky_x2_Serial_AKC" H 6450 4214 50  0000 C CNN
+F 2 "" H 6450 4000 50  0001 C CNN
+F 3 "~" H 6450 4000 50  0001 C CNN
+	1    6450 4000
+	1    0    0    1   
+$EndComp
+$Comp
+L Device:D_Schottky_x2_Serial_AKC D?
+U 1 1 5F0BD5E7
+P 6700 3100
+F 0 "D?" H 6700 3316 50  0000 C CNN
+F 1 "D_Schottky_x2_Serial_AKC" H 6700 3225 50  0000 C CNN
+F 2 "" H 6700 3100 50  0001 C CNN
+F 3 "~" H 6700 3100 50  0001 C CNN
+	1    6700 3100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5250 3600 6700 3600
+$Comp
+L Diode:PMEG6010CEJ D?
+U 1 1 5F0B0C7B
+P 5800 3100
+F 0 "D?" H 5800 3000 50  0000 C CNN
+F 1 "PMEG6010CEJ" H 5800 3200 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 5800 2925 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" H 5800 3100 50  0001 C CNN
+	1    5800 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5250 3300 5450 3300
+Wire Wire Line
+	5450 3300 5450 3100
+Wire Wire Line
+	5450 3100 5650 3100
+Wire Wire Line
+	6700 3600 6700 3300
+Wire Wire Line
+	4950 4000 6150 4000
+Wire Wire Line
+	6750 4000 7050 4000
+Text Label 6800 4000 0    60   ~ 0
++5V
+Wire Wire Line
+	5250 3500 6450 3500
+Wire Wire Line
+	6450 3500 6450 3800
+Wire Wire Line
+	7000 3100 7400 3100
+Text Label 7200 3100 0    60   ~ 0
+GND
+Text Label 5550 4000 0    60   ~ 0
+GND
+Wire Wire Line
+	5250 4850 5650 4850
+Wire Wire Line
+	5450 3300 6100 3300
+Connection ~ 5450 3300
+$Comp
+L Diode:PMEG6010CEJ D?
+U 1 1 5F0CCA8C
+P 5800 4850
+F 0 "D?" H 5800 4750 50  0000 C CNN
+F 1 "PMEG6010CEJ" H 5800 4950 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-323" H 5800 4675 50  0001 C CNN
+F 3 "https://assets.nexperia.com/documents/data-sheet/PMEG6010CEH_PMEG6010CEJ.pdf" H 5800 4850 50  0001 C CNN
+	1    5800 4850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4850 6500 4850
+Text Label 6200 4850 0    60   ~ 0
++5V
+Wire Wire Line
+	5250 5050 5750 5050
+Wire Wire Line
+	5250 5150 5750 5150
+Text Label 5400 5050 0    60   ~ 0
+D+
+Text Label 5400 5150 0    60   ~ 0
+D-
+Text Label 5400 3600 0    60   ~ 0
+D-
+Text Label 5400 3500 0    60   ~ 0
+D+
+Wire Wire Line
+	2500 1500 2800 1500
+Text HLabel 2500 1500 0    60   BiDi ~ 0
++5V
+Wire Wire Line
+	2500 1750 2800 1750
+Text HLabel 2500 1750 0    60   BiDi ~ 0
+D+
+Wire Wire Line
+	2500 1900 2800 1900
+Text HLabel 2500 1900 0    60   BiDi ~ 0
+D-
+Text Label 10775 800  2    70   ~ 0
+VBUS
+Wire Wire Line
+	8225 1200 8225 1100
+Wire Wire Line
+	8125 1500 8125 1200
+Wire Wire Line
+	7925 1200 8125 1200
+Wire Wire Line
+	8225 1200 8125 1200
+Connection ~ 8125 1200
+Text Label 8225 1200 0    10   ~ 0
++3V3
+Wire Wire Line
+	9525 1600 9125 1600
+Text Label 9125 1600 0    70   ~ 0
+D+
+Wire Wire Line
+	9525 1500 9125 1500
+Text Label 9125 1500 0    70   ~ 0
+D-
+Wire Wire Line
+	5725 800  5225 800 
+Text Label 5725 800  0    10   ~ 0
+IGND
+Wire Wire Line
+	7625 1500 7625 1700
+Text Label 7625 1500 0    10   ~ 0
+IGND
+Wire Wire Line
+	7025 1800 7025 1900
+Text Label 7025 1800 0    10   ~ 0
+IGND
+Wire Wire Line
+	8125 1900 8125 1800
+Text Label 8125 1900 0    10   ~ 0
+IGND
+Wire Wire Line
+	9525 1700 9325 1700
+Wire Wire Line
+	9325 1700 9325 2000
+Text Label 9525 1700 0    10   ~ 0
+IGND
+Wire Wire Line
+	7025 800  6625 800 
+Wire Wire Line
+	9525 1400 9025 1400
+Wire Wire Line
+	9025 1400 9025 800 
+Wire Wire Line
+	9025 800  7025 800 
+Wire Wire Line
+	7025 800  7025 1200
+Wire Wire Line
+	7025 1200 7025 1500
+Wire Wire Line
+	7325 1200 7025 1200
+Text Label 7725 800  0    70   ~ 0
+VBUS
+Connection ~ 7025 1200
+Wire Wire Line
+	6225 800  6025 800 
+$Comp
+L GEVCU-6-2c-eagle-import:LED0805 USB?
+U 1 1 5DE6A1AD
+P 5825 800
+AR Path="/5DE6A1AD" Ref="USB?"  Part="1" 
+AR Path="/5C5A4675/5DE6A1AD" Ref="USB?"  Part="1" 
+AR Path="/5C2F3FAA/5DE6A1AD" Ref="USB?"  Part="1" 
+AR Path="/5E951DD9/5DE6A1AD" Ref="USB?"  Part="1" 
+F 0 "USB?" H 5625 925 42  0000 L BNN
+F 1 "LED0805" H 5625 690 42  0000 L BNN
+F 2 "GEVCU-6-2c:CHIPLED_0805" H 5825 800 60  0001 C CNN
+F 3 "" H 5825 800 60  0001 C CNN
+	1    5825 800 
+	-1   0    0    1   
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:R-US_R0805 R?
+U 1 1 5DE6A1B3
+P 6425 800
+AR Path="/5DE6A1B3" Ref="R?"  Part="1" 
+AR Path="/5C5A4675/5DE6A1B3" Ref="R?"  Part="1" 
+AR Path="/5C2F3FAA/5DE6A1B3" Ref="R?"  Part="1" 
+AR Path="/5E951DD9/5DE6A1B3" Ref="R?"  Part="1" 
+F 0 "R?" H 6275 859 59  0000 L BNN
+F 1 "1k" H 6275 670 59  0000 L BNN
+F 2 "GEVCU-6-2c:R0805" H 6425 800 60  0001 C CNN
+F 3 "" H 6425 800 60  0001 C CNN
+	1    6425 800 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5DE6A1B9
+P 5225 900
+AR Path="/5DE6A1B9" Ref="#GND?"  Part="1" 
+AR Path="/5C5A4675/5DE6A1B9" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5DE6A1B9" Ref="#GND?"  Part="1" 
+AR Path="/5E951DD9/5DE6A1B9" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 5225 900 60  0001 C CNN
+F 1 "IGND" H 5125 800 59  0000 L BNN
+F 2 "" H 5225 900 60  0001 C CNN
+F 3 "" H 5225 900 60  0001 C CNN
+	1    5225 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:PN61729-S X?
+U 1 1 5DE6A1BF
+P 9625 1600
+AR Path="/5DE6A1BF" Ref="X?"  Part="1" 
+AR Path="/5C5A4675/5DE6A1BF" Ref="X?"  Part="1" 
+AR Path="/5C2F3FAA/5DE6A1BF" Ref="X?"  Part="1" 
+AR Path="/5E951DD9/5DE6A1BF" Ref="X?"  Part="1" 
+F 0 "X?" H 9625 1950 59  0000 L BNN
+F 1 "PN61729-S" V 9975 1350 59  0000 L BNN
+F 2 "GEVCU-6-2c:PN61729-S" H 9625 1600 60  0001 C CNN
+F 3 "" H 9625 1600 60  0001 C CNN
+	1    9625 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5DE6A1C5
+P 9325 2100
+AR Path="/5DE6A1C5" Ref="#GND?"  Part="1" 
+AR Path="/5C5A4675/5DE6A1C5" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5DE6A1C5" Ref="#GND?"  Part="1" 
+AR Path="/5E951DD9/5DE6A1C5" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 9325 2100 60  0001 C CNN
+F 1 "IGND" H 9225 2000 59  0000 L BNN
+F 2 "" H 9325 2100 60  0001 C CNN
+F 3 "" H 9325 2100 60  0001 C CNN
+	1    9325 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:LM1117SOT223-WAVE U?
+U 1 1 5DE6A1CB
+P 7625 1200
+AR Path="/5DE6A1CB" Ref="U?"  Part="1" 
+AR Path="/5C5A4675/5DE6A1CB" Ref="U?"  Part="1" 
+AR Path="/5C2F3FAA/5DE6A1CB" Ref="U?"  Part="1" 
+AR Path="/5E951DD9/5DE6A1CB" Ref="U?"  Part="1" 
+F 0 "U?" H 7425 1340 42  0000 L BNN
+F 1 "LM1117SOT223-WAVE" H 7275 900 42  0000 L BNN
+F 2 "GEVCU-6-2c:SOT223-W" H 7625 1200 60  0001 C CNN
+F 3 "" H 7625 1200 60  0001 C CNN
+	1    7625 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5DE6A1D1
+P 8125 1600
+AR Path="/5DE6A1D1" Ref="C?"  Part="1" 
+AR Path="/5C5A4675/5DE6A1D1" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5DE6A1D1" Ref="C?"  Part="1" 
+AR Path="/5E951DD9/5DE6A1D1" Ref="C?"  Part="1" 
+F 0 "C?" H 8165 1625 59  0000 L BNN
+F 1 "10uF" H 8165 1435 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 8125 1600 60  0001 C CNN
+F 3 "" H 8125 1600 60  0001 C CNN
+	1    8125 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:C-USC0805 C?
+U 1 1 5DE6A1D7
+P 7025 1600
+AR Path="/5DE6A1D7" Ref="C?"  Part="1" 
+AR Path="/5C5A4675/5DE6A1D7" Ref="C?"  Part="1" 
+AR Path="/5C2F3FAA/5DE6A1D7" Ref="C?"  Part="1" 
+AR Path="/5E951DD9/5DE6A1D7" Ref="C?"  Part="1" 
+F 0 "C?" H 7065 1625 59  0000 L BNN
+F 1 "10uF" H 7065 1435 59  0000 L BNN
+F 2 "GEVCU-6-2c:C0805" H 7025 1600 60  0001 C CNN
+F 3 "" H 7025 1600 60  0001 C CNN
+	1    7025 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5DE6A1DD
+P 8125 2000
+AR Path="/5DE6A1DD" Ref="#GND?"  Part="1" 
+AR Path="/5C5A4675/5DE6A1DD" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5DE6A1DD" Ref="#GND?"  Part="1" 
+AR Path="/5E951DD9/5DE6A1DD" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 8125 2000 60  0001 C CNN
+F 1 "IGND" H 8025 1900 59  0000 L BNN
+F 2 "" H 8125 2000 60  0001 C CNN
+F 3 "" H 8125 2000 60  0001 C CNN
+	1    8125 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5DE6A1E3
+P 7025 2000
+AR Path="/5DE6A1E3" Ref="#GND?"  Part="1" 
+AR Path="/5C5A4675/5DE6A1E3" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5DE6A1E3" Ref="#GND?"  Part="1" 
+AR Path="/5E951DD9/5DE6A1E3" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 7025 2000 60  0001 C CNN
+F 1 "IGND" H 6925 1900 59  0000 L BNN
+F 2 "" H 7025 2000 60  0001 C CNN
+F 3 "" H 7025 2000 60  0001 C CNN
+	1    7025 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:GND #GND?
+U 1 1 5DE6A1E9
+P 7625 1800
+AR Path="/5DE6A1E9" Ref="#GND?"  Part="1" 
+AR Path="/5C5A4675/5DE6A1E9" Ref="#GND?"  Part="1" 
+AR Path="/5C2F3FAA/5DE6A1E9" Ref="#GND?"  Part="1" 
+AR Path="/5E951DD9/5DE6A1E9" Ref="#GND?"  Part="1" 
+F 0 "#GND?" H 7625 1800 60  0001 C CNN
+F 1 "IGND" H 7525 1700 59  0000 L BNN
+F 2 "" H 7625 1800 60  0001 C CNN
+F 3 "" H 7625 1800 60  0001 C CNN
+	1    7625 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L GEVCU-6-2c-eagle-import:+3V3 #+3V?
+U 1 1 5DE6A1EF
+P 8225 1000
+AR Path="/5DE6A1EF" Ref="#+3V?"  Part="1" 
+AR Path="/5C5A4675/5DE6A1EF" Ref="#+3V?"  Part="1" 
+AR Path="/5C2F3FAA/5DE6A1EF" Ref="#+3V?"  Part="1" 
+AR Path="/5E951DD9/5DE6A1EF" Ref="#+3V?"  Part="1" 
+F 0 "#+3V?" H 8225 1000 60  0001 C CNN
+F 1 "+3V3" V 8375 850 59  0000 L BNN
+F 2 "" H 8225 1000 60  0001 C CNN
+F 3 "" H 8225 1000 60  0001 C CNN
+	1    8225 1000
+	1    0    0    -1  
+$EndComp
+Connection ~ 7025 800 
+Wire Wire Line
+	10925 800  9025 800 
+Connection ~ 9025 800 
+Text Label 2550 1500 0    60   ~ 0
++5V
+Text Label 2600 1750 0    60   ~ 0
+D+
+Text Label 2600 1900 0    60   ~ 0
+D-
+$EndSCHEMATC
